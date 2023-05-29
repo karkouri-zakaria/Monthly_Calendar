@@ -1,0 +1,132 @@
+/* Global styles */
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #f5f5f5;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #333333;
+  }
+  
+  a {
+    color: #1155a3;
+    text-decoration: none;
+  }
+  
+  .space {
+    margin: 10px 0;
+  }
+  
+  /* Header styles */
+  .header {
+    background: linear-gradient(to right, #011329 0%, #c83232 44%, #011329 100%);
+    padding: 20px;
+    color: white;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .header a {
+    color: white;
+  }
+  
+  .header h1 {
+    padding: 0;
+    margin: 0;
+    font-size: 44px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  }
+  
+  /* Main content styles */
+  .main {
+    padding: 10px;
+    margin-top: 20px;
+  }
+  
+  /* Context menu icons */
+  .icon:before {
+    position: absolute;
+    left: 0;
+    margin-left: 8px;
+    margin-top: 3px;
+    width: 14px;
+    height: 14px;
+    content: '';
+  }
+  
+  .icon-blue:before {
+    background-color: #3c78d8;
+  }
+  
+  .icon-green:before {
+    background-color: #13A874;
+  }
+  
+  .icon-yellow:before {
+    background-color: #EFB914;
+  }
+  
+  .icon-red:before {
+    background-color: #F03030;
+  }
+  
+  /* Columns */
+  .wrap {
+    display: flex;
+  }
+  
+  .left {
+    margin-left: 10px;
+  }
+  
+  .right {
+    flex-grow: 1;
+  }
+  
+  /* Toolbar */
+  .toolbar {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .toolbar button {
+    display: inline-block;
+    text-align: center;
+    background-color: #d83c3c;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 5px;
+    margin-top: 20px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .toolbar button:hover {
+    background-color: #c62828;
+  }
+  
+  .toolbar button:active {
+    background-color: #c62828;
+  }
+  
+  .toolbar button:focus {
+    outline: none;
+  }
+  
+  .toolbar button:last-child {
+    margin-right: 0;
+  }
+  
+  .toolbar button:last-child {
+    margin-left: auto;
+  }
+  
